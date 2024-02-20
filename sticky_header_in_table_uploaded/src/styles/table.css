@@ -1,0 +1,30 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table th,
+table td {
+	text-align: left;
+	padding: 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+table th {
+	color: #000000;
+	background-color: rgb(49, 255, 206);
+}
+
+table tbody {
+	max-height: calc(100% - 40px);
+	overflow: auto;
+}
+
+table thead.sticky {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}

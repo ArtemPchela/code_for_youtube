@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer type="module" src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Modal windows with JavaScript</h1>
+</header>
+
+<div class="cards-container" id="cards-container"></div>
+
+<div class="modal" id="modal"></div>
+
+<main>
+    <section id="description">
+        <h2>Description</h2>
+        <p>The provided JavaScript code aims to create a card-based interface where each card displays information about
+            a particular item. The code is designed to accomplish the following tasks:</p>
+        <ul>
+            <li>Create Cards: The createCard function generates a card element based on the data passed to it. Each card
+                contains a title, a short description, and a "Read More" button. Event listeners are attached to each
+                card to trigger the opening of a modal when clicked.
+            </li>
+            <li>Render Cards: The renderCards function populates the cardsContainer with cards created from the data
+                obtained from an external source (cardData.js).
+            </li>
+            <li>Open Modal: The openModal function is responsible for displaying a modal window when a card is clicked.
+                The modal contains detailed information about the selected item, including its title, short description,
+                and a close button.
+            </li>
+            <li>Close Modal: The closeModal function removes the modal from view when the close button is clicked or
+                when the user clicks outside the modal window.
+            </li>
+            <li>Event Listeners: Event listeners are attached to the window to handle clicks outside the modal window
+                and key presses (specifically the Escape key) to close the modal.
+            </li>
+            <li>CSS Styling: CSS rules are applied to control the visibility of the "Read More" button on the cards. The
+                button is hidden by default but becomes visible when hovering over a card.
+            </li>
+        </ul>
+        <p>Overall, this code provides a functional interface for displaying item information in cards and viewing
+            detailed descriptions in a modal window. Additionally, it ensures a smooth user experience by handling modal
+            interactions and card hover effects.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 CatWebDev</p>
+</footer>
+
+</body>
+</html>

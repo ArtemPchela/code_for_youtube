@@ -1,0 +1,113 @@
+body {
+	background: #1f1e1e;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #c77777;
+}
+
+#progressBar {
+	width: 0;
+	height: 1rem;
+	background-color: #3be5c9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+#progress {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1rem;
+	font-weight: bold;
+	color: black;
+}
+
+.facts {
+	justify-content: center;
+	align-items: center;
+}
+
+.facts_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 0 1em;
+	text-align: center;
+	gap: 5rem;
+}
+
+.fact {
+	font-size: 1.2em;
+	padding: 2rem 1rem;
+	border: 1px solid #3be5c9;
+	border-radius: 12px;
+	max-width: 90%;
+}
+
+.fact p {
+	font-size: 1.1em;
+	margin: 0.5em 0;
+}
+
+.fact h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+
+img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 5px;
+	margin: 0.5em 0;
+}
+
+.order {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #3be5c9;
+	padding: 0.5rem;
+	border-radius: 50%;
+	font-weight: 700;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	padding: 20px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.facts_title {
+	font-family: "Castellar", sans-serif;
+	font-weight: 900;
+}

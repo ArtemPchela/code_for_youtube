@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #ffffff;
+	background: #333333;
+}
+
+.section-one {
+	background: #4b4545;
+}
+
+.section-two {
+	color: #4b4545;
+	background: white;
+}
+
+.title {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding: 2rem 0;
+	color: #333333;
+	background-image: url("images/background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.story {
+	min-height: 100vh;
+}
+
+.stories_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	max-width: 64rem;
+	margin: 0 auto;
+	gap: 4rem;
+}
+
+.stories_wrapper > p {
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+.story_title {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 2rem;
+}
+
+.scroll_top {
+	display: flex;
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+	cursor: pointer;
+	border: 2px solid #ffffff;
+	padding: 0.5rem;
+	background: #3f3b3b;
+	border-radius: 50%;
+	opacity: 0;
+	transform: translateY(100%);
+	transition: all 0.5s ease-in-out;
+}
+
+.scroll_top.visible {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.scroll_top:hover {
+	background: #ffffff;
+	border: 2px solid #3f3b3b;
+}
+
+.scroll_top:hover svg path {
+	fill: #3f3b3b;
+}

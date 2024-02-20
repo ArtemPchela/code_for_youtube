@@ -1,0 +1,58 @@
+[
+  {
+    "name": "John Smith",
+    "age": 35,
+    "gender": "Male",
+    "income": 55000,
+    "profession": "Software Engineer"
+  },
+  {
+    "name": "Alice Johnson",
+    "age": 28,
+    "gender": "Female",
+    "income": 48000,
+    "profession": "Marketing Manager"
+  },
+  {
+    "name": "Robert Davis",
+    "age": 45,
+    "gender": "Male",
+    "income": 72000,
+    "profession": "Financial Analyst"
+  },
+  {
+    "name": "Emily Brown",
+    "age": 30,
+    "gender": "Female",
+    "income": 60000,
+    "profession": "Physician"
+  },
+  {
+    "name": "Michael Wilson",
+    "age": 40,
+    "gender": "Male",
+    "income": 80000,
+    "profession": "Lawyer"
+  },
+  {
+    "name": "Sarah Lee",
+    "age": 33,
+    "gender": "Female",
+    "income": 52000,
+    "profession": "Teacher"
+  },
+  {
+    "name": "David Garcia",
+    "age": 28,
+    "gender": "Male",
+    "income": 58000,
+    "profession": "Data Scientist"
+  },
+  {
+    "name": "Olivia Martinez",
+    "age": 29,
+    "gender": "Female",
+    "income": 51000,
+    "profession": "Graphic Designer"
+  }
+]
