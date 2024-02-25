@@ -5,7 +5,7 @@
 ## Support our work you can by:
 
 <a href="https://www.buymeacoffee.com/catwebdev">
-<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=catwebdev&button_colour=16eefe&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"/>
+<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=catwebdev&button_colour=16eefe&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" alt="buy me a coffee"/>
 </a>
 
 ### Content
@@ -16,4 +16,5 @@
 - [Sticky Header in Table React](https://www.youtube.com/watch?v=kzMBEYAvoCc)
 - [Flip card css](https://www.youtube.com/watch?v=81UNCWlS3pM)
 - [Scroll to top button with JavaScript](https://www.youtube.com/watch?v=q5OrVe0zBf8)
-- [Multiple modal windows with JavaScript] - in the process of creation 
+- [Multiple modal windows with JavaScript](https://www.youtube.com/watch?v=-AU_Y-73fyI)
+- [Live Search on the fly with JavaScript](https://www.youtube.com/watch?v=-oS85d51Zy4)
