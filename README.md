@@ -18,3 +18,4 @@
 - [Scroll to top button with JavaScript](https://www.youtube.com/watch?v=q5OrVe0zBf8)
 - [Multiple modal windows with JavaScript](https://www.youtube.com/watch?v=-AU_Y-73fyI)
 - [Live Search on the fly with JavaScript](https://www.youtube.com/watch?v=-oS85d51Zy4)
+- [Section switcher with React](https://www.youtube.com/watch?v=fnVBakt8Myo)

@@ -1,0 +1,92 @@
+:root {
+	--primary-color: #00f7ff;
+	--secondary-color: #ffe669;
+	--tertiary-color: #65ff39;
+	--quaternary-color: #565656;
+	--quinary-color: #3a3a3a;
+	--unvaliable: rgba(255, 0, 0, 0.4);
+
+	font-family: Castellar, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	box-sizing: border-box;
+	background-color: var(--quaternary-color);
+	color: var(--primary-color);
+	padding: 2rem 0;
+}
+
+section:nth-child(odd) {
+	background-color: var(--quinary-color);
+}
+
+.section_wrapper {
+	width: 90%;
+	max-width: 752px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section_image {
+	width: 100%;
+	height: 20rem;
+	border-radius: 0.75rem;
+}
+
+.btn_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.btn_wrapper .go_to-prev,
+.btn_wrapper .go_to-next {
+	display: flex;
+	cursor: pointer;
+	transition: all 3s ease-in-out;
+}
+
+.btn_wrapper .go_to-prev svg,
+.btn_wrapper .go_to-next svg {
+	width: 45px;
+	height: 45px;
+	fill: var(--tertiary-color);
+	display: block;
+}
+
+.btn_wrapper .go_to-prev:hover svg path,
+.btn_wrapper .go_to-next:hover svg path {
+	fill: var(--secondary-color);
+}
+
+.btn_wrapper .go_to-next {
+	transform: rotate(180deg);
+}
+
+.btn_wrapper .go_to-prev.disabled,
+.btn_wrapper .go_to-next.disabled {
+	cursor: not-allowed;
+}
+
+.btn_wrapper .go_to-prev.disabled svg path,
+.btn_wrapper .go_to-next.disabled svg path {
+	fill: var(--unvaliable)
+}
+
+.all_stories {
+	color: var(--primary-color);
+}
