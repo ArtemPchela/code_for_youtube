@@ -1,0 +1,75 @@
+:root {
+	--background-light: #f4f4f4;
+	--border: rgba(103,100,100, 0.8);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: var(--background-light);
+}
+
+.container {
+	background-color: var(--background-light);
+	padding: 20px;
+	box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.5);
+	border-radius: 8px;
+	border: 1px solid var(--border);
+}
+
+#message {
+	color: var(--border);
+	width: 450px;
+	height: 200px;
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 18px;
+	resize: none;
+}
+
+#message.exceeded {
+	color: red;
+}
+
+.char-count {
+	margin-top: 10px;
+	text-align: right;
+	font-size: 14px;
+	color: var(--border);
+}
+
+.exceeded {
+	color: red;
+}
+
+#sendMessage {
+	border: 1px solid var(--border);
+	color: var(--border);
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 0.3s ease-in-out;
+}
+
+#sendMessage:hover {
+	color: #ffffff;
+	background-color: #666666;
+}
+
+#sendMessage:disabled {
+	background-color: rgba(103, 100, 100, 0.5);
+	color: var(--border);
+	cursor: not-allowed;
+}
