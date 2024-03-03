@@ -1,0 +1,111 @@
+:root {
+  background-color: #242424;
+  color: #ffffff;
+  --green-color: #09fa32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  max-width: 77.5rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--green-color);
+  margin: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.125rem solid var(--green-color);
+  border-radius: 0.45rem;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.modal-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0.125rem solid var(--green-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bolder;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: auto;
+}
+
+.modal-btn:hover {
+  background-color: var(--green-color);
+  color: #242424;
+}
+
+.modal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.3125rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.125rem);
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s linear 0.5s,
+    opacity 0.5s ease-in-out;
+}
+
+.modal-wrapper.show-modal {
+  visibility: visible;
+  opacity: 1;
+  transition:
+    visibility 0s,
+    opacity 0.5s ease-in-out;
+}
+
+.modal {
+  text-align: center;
+  border: 0.125rem solid var(--green-color);
+  padding: 1.875rem;
+  border-radius: 0.625rem;
+  width: 80%;
+  max-width: 31.25rem;
+  color: #ffffff;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(-3.125rem);
+  backdrop-filter: blur(0.625rem);
+}
+
+.modal-wrapper.show-modal .modal {
+  transform: translateY(0);
+}

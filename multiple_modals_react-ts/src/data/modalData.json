@@ -1,0 +1,27 @@
+[
+  {
+    "id": "modal1",
+    "title": "Modal 1",
+    "content": "Content for modal 1"
+  },
+  {
+    "id": "modal2",
+    "title": "Modal 2",
+    "content": "Content for modal 2"
+  },
+  {
+    "id": "modal3",
+    "title": "Modal 3",
+    "content": "Content for modal 3"
+  },
+  {
+    "id": "modal4",
+    "title": "Modal 4",
+    "content": "Content for modal 4"
+  },
+  {
+    "id": "modal5",
+    "title": "Modal 5",
+    "content": "Content for modal 5"
+  }
+]
