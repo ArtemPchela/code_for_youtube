@@ -20,3 +20,4 @@
 - [Live Search on the fly with JavaScript](https://www.youtube.com/watch?v=-oS85d51Zy4)
 - [Section switcher with React](https://www.youtube.com/watch?v=fnVBakt8Myo)
 - [Characters limit count with JavaScript](https://youtu.be/hEbBexkCqDg)
+- [Multiple modals windows with React/TypeScript](https://youtu.be/_WEsT2rmZq4)
