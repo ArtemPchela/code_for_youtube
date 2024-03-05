@@ -5,7 +5,7 @@ export type CardsConfig = {
 };
 
 export type ModalProps = {
-  item: CardsConfig;
+  item: CardsConfig | null;
   isOpen: boolean;
   onClose: () => void;
 };

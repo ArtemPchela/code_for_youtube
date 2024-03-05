@@ -109,3 +109,8 @@ h1 {
 .modal-wrapper.show-modal .modal {
   transform: translateY(0);
 }
+
+.modal_variant {
+  text-align: center;
+  margin: 2rem;
+}
