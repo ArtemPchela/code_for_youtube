@@ -22,3 +22,4 @@
 - [Characters limit count with JavaScript](https://youtu.be/hEbBexkCqDg)
 - [Multiple modals windows with React/TypeScript](https://youtu.be/_WEsT2rmZq4)
 - [Accordion React TypeScript](https://youtu.be/XQe_CNGqLgs)
+- [Words per minute calculator with React/TypeScript](https://youtu.be/4deg5FEir8U)

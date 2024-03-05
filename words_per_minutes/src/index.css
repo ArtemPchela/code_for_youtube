@@ -1,0 +1,75 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--primary-color: #13edff;
+	--secondary-color: #7dff12;
+}
+
+.head {
+	text-align: center;
+}
+
+.articles_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px; /* Adjust the gap as needed */
+	width: 90%;
+	margin: 0 auto;
+	max-width: 768px;
+}
+
+.article {
+	border: 1px solid #ccc;
+	padding: 1rem;
+	border-radius: 8px;
+}
+
+.article_title {
+	font-weight: 700;
+	text-align: center;
+	font-size: 1.35rem;
+	color: var(--primary-color);
+	margin-bottom: 1rem;
+}
+
+.article_author {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.author_name {
+	font-weight: 500;
+	color: var(--secondary-color);
+}
+
+.article_content {
+	margin: 1rem 0;
+}
+
+.article_publication {
+	text-align: right;
+	color: var(--secondary-color)
+}
+
+.time {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px dashed var(--primary-color);
+	border-radius: 50%;
+	width: 1.5rem;
+	height: 1.5rem;
+	color: #ffdb1c;
+}
