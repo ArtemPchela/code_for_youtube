@@ -1,0 +1,23 @@
+.controls {
+	display: flex;
+	gap: 0.35rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 50%;
+	transform: translateX(50%);
+}
+
+.controls_btn {
+	cursor: pointer;
+	border-radius: 2rem;
+	padding: 0.2rem;
+	background: var(--font-color);
+	width: 3rem;
+	height: 3rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.controls_btn:hover {
+	background: #eeeeee;
+	color: #333333;
+}

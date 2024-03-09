@@ -85,12 +85,9 @@ h1 {
     opacity 0.5s ease-in-out;
 }
 
-.modal-wrapper.show-modal {
-  visibility: visible;
+.show-modal {
   opacity: 1;
-  transition:
-    visibility 0s,
-    opacity 0.5s ease-in-out;
+  visibility: visible;
 }
 
 .modal {
