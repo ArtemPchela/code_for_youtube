@@ -24,3 +24,4 @@
 - [Accordion React TypeScript](https://youtu.be/XQe_CNGqLgs)
 - [Words per minute calculator with React/TypeScript](https://youtu.be/4deg5FEir8U)
 - [Image slider with React/TypeScript](https://youtu.be/gZ-NPMupR0U)
+- [Hover Magic: Dynamic User Profile Cards with jQuery](https://youtu.be/FT3fvIwRPp4)
