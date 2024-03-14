@@ -1,0 +1,65 @@
+:root {
+	--just-color: #5FFFE7;
+	--just-white: #ffffff;
+	--background-color: #212020;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color:	var(--background-color);
+}
+
+.button_container {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	width: 90%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+
+}
+
+.button {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	color: var(--just-color);
+	padding: 50px 70px;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+	border: 3px solid var(--just-color);
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+.button:hover {
+	color: var(--just-white);
+}
+
+
+.wave {
+	position: absolute;
+	border-radius: 100%;
+	transform: scale(0);
+	opacity: 1;
+	pointer-events: none;
+	color: var(--just-white);
+	transition: background-color 0.3s;
+}
+
+@keyframes wave-animation {
+	to {
+		transform: scale(3);
+		opacity: 0;
+	}
+}
