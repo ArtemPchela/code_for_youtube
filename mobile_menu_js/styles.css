@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 900;
+	font-family: "Microsoft YaHei UI", sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+}
+
+#home {
+	background-color: #35374B;
+}
+
+#types {
+	background-color: #344955;
+}
+
+#brewing {
+	background-color: #50727B;
+}
+
+.title {
+	font-size: clamp(3rem, 7vw, 4rem);
+	color: white;
+	text-shadow: 7px 7px 4px #000000;
+	padding: 0 1rem;
+}
+
+.navbar {
+	width: 320px;
+	height: 100%;
+	padding: 0 1rem;
+	background-color: #1a1a1a;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: right 0.7s ease-in-out;
+}
+
+.navbar.change {
+	right: 0;
+}
+
+@media (max-width: 761px) {
+	.navbar {
+		width: 100%;
+	}
+}
+
+.hamburger_menu {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.line {
+	width: 100%;
+	height: 3px;
+	background-color: white;
+	transition: all 0.6s ease-in-out;
+}
+
+.change .line1 {
+	transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+
+.change .line2 {
+	opacity: 0;
+}
+
+.change .line3 {
+	transform: rotateZ(45deg) translate(-8px, -6px);
+}
+
+.nav_list {
+	display: grid;
+	gap: 1rem;
+	padding: 0 1rem;
+}
+
+.nav_link {
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	position: relative;
+	padding: 3px 0;
+}
+
+.nav_link:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: yellow;
+	position: absolute;
+	left: 0;
+	transform: scale(0);
+	transition: transform 0.5s ease-in-out;
+}
+
+.nav_link:after {
+	bottom: 0;
+	transform-origin: left;
+}
+
+.nav_link:hover:after {
+	transform: scale(1);
+}
+
+
+
