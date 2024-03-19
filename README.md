@@ -1,7 +1,9 @@
 # Hello and welcome
 
 ## In this repo we will keep all code from [@catwebdev](https://www.youtube.com/channel/UC2pGphugSZ0Qp2zuXSOPx0g) YouTube channel.
-### share / like /subscribe 
+
+### share / like /subscribe
+
 ## Support our work you can by:
 
 <a href="https://www.buymeacoffee.com/catwebdev">
@@ -26,3 +28,10 @@
 - [Image slider with React/TypeScript](https://youtu.be/gZ-NPMupR0U)
 - [Hover Magic: Dynamic User Profile Cards with jQuery](https://youtu.be/FT3fvIwRPp4)
 - [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
+
+- <details>
+  <summary>Burger Buttons Animation:</summary>
+
+  *  [Hamburger button fall effect with CSS/JavaScript](https://youtu.be/yGDPMNmC-ec)
+
+</details>
