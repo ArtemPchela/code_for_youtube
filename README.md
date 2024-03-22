@@ -32,6 +32,7 @@
 - <details>
   <summary>Burger Buttons Animation:</summary>
 
-  *  [Hamburger button fall effect with CSS/JavaScript](https://youtu.be/yGDPMNmC-ec)
+  * [Hamburger button fall effect with CSS/JavaScript](https://youtu.be/yGDPMNmC-ec)
+  * [Hamburger button go away to the left](https://youtu.be/DQGQr6FLx2w)
 
 </details>
