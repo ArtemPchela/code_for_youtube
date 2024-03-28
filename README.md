@@ -29,6 +29,7 @@
 - [Hover Magic: Dynamic User Profile Cards with jQuery](https://youtu.be/FT3fvIwRPp4)
 - [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
 - [BMI Calculator with JavaScript](https://youtu.be/IFcI8PaWBH4)
+- [Random Color Generator](https://youtu.be/XAznr5Zp8Ko)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>

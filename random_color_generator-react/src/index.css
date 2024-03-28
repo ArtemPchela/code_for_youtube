@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	background-color: #2d2f2f;
+}
+
+.cards {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.card {
+	color: white;
+	width: 350px;
+	height: 200px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+		to bottom,
+	#383737,
+	#252424
+	) padding-box,
+	conic-gradient(
+		from var(--bg-from) in oklch longer hue,
+	var(--background-color) 0 0
+	) border-box;
+	border: 3px solid transparent;
+	animation: spin 3s infinite linear;
+	border-radius: 12px;
+}
+
+@keyframes spin {
+	to {
+		--bg-from: 1turn;
+	}
+}
+
+@property --bg-from {
+	inherits: false;
+	initial-value: 0deg;
+	syntax: "<angle>";
+}
+
+.name {
+	padding: 2px 8px;
+	border-radius: 1rem;
+	text-shadow: #ffffff 1px 1px 0;
+	letter-spacing: 0.07rem;
+	font-family: "Poor Richard", sans-serif;
+	font-size: 2rem;
+	color: var(--background-color);
+}
+
+img {
+	border-radius: 50%;
+	margin-top: 1rem;
+}
