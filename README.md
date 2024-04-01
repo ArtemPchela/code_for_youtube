@@ -30,6 +30,7 @@
 - [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
 - [BMI Calculator with JavaScript](https://youtu.be/IFcI8PaWBH4)
 - [Random Color Generator](https://youtu.be/XAznr5Zp8Ko)
+- [Weather Ticker with JavaScript](https://youtu.be/GdLRPmHLDFQ)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>
