@@ -31,6 +31,7 @@
 - [BMI Calculator with JavaScript](https://youtu.be/IFcI8PaWBH4)
 - [Random Color Generator](https://youtu.be/XAznr5Zp8Ko)
 - [Weather Ticker with JavaScript](https://youtu.be/GdLRPmHLDFQ)
+- [Accordion with JavaScript](https://youtu.be/OGAQ2w3Ko34)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>

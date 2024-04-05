@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin: 2.5rem 0;
+	font-weight: 700;
+	font-family: "Poor Richard", sans-serif;
+}
+
+.accordion {
+	max-width: 600px;
+	margin: 20px auto;
+	color: #1d1d1e;
+}
+
+.accordion-item {
+	margin-bottom: 10px;
+}
+
+.accordion-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font-size: 1.25rem;
+	cursor: pointer;
+	background-color: #e9d758;
+}
+
+.accordion-content {
+	display: grid;
+	border: 1px solid #e9d758;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.7s ease-in-out;
+}
+
+.accordion-content_sub {
+	padding: 1rem;
+}
+
+.icon {
+	transform: translateY(0);
+}
+
+.accordion-item.open .accordion-title .icon {
+	transform: translateY(180deg);
+}
+
+.bi {
+	font-size: 2rem;
+	color: #ff8552;
+}
