@@ -32,6 +32,7 @@
 - [Random Color Generator](https://youtu.be/XAznr5Zp8Ko)
 - [Weather Ticker with JavaScript](https://youtu.be/GdLRPmHLDFQ)
 - [Accordion with JavaScript](https://youtu.be/OGAQ2w3Ko34)
+- [Accordion with jQuery](https://youtu.be/dyBv4HDrMxI)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>

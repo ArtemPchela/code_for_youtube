@@ -1,0 +1,60 @@
+:root {
+	--pink: #F49CBB;
+	--light-blue: #5FFFE7;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2f2e2e;
+}
+
+h1 {
+	font-size: xxx-large;
+	color: var(--pink);
+	text-align: center;
+}
+
+.accordion {
+	margin: 1.75rem;
+}
+
+.accordion-item {
+	max-width: 768px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.accordion-header {
+	border-bottom: 2px solid var(--pink);
+	padding: 1rem;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	align-items: center;
+	font-size: 2rem;
+	background-color: transparent;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.accordion-header:hover {
+	background-color: var(--pink);
+}
+
+.accordion-title {
+	display: block;
+	width: 100%;
+	font-weight: bold;
+}
+
+.accordion-content {
+	padding: 1.75rem;
+	display: none;
+	color: var(--light-blue);
+	font-size: 1.25rem;
+	border-bottom: 2px solid var(--pink);
+}
+

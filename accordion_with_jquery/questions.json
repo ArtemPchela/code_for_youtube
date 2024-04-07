@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is JavaScript?",
+    "answer":
+    "JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is widely used for client-side scripting in web development."
+  },
+  {
+    "question": "What are the data types supported by JavaScript?",
+    "answer":
+    "JavaScript supports primitive data types such as string, number, boolean, null, and undefined, as well as complex data types such as object and function."
+  },
+  {
+    "question": "What is JSON?",
+    "answer":
+    "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate."
+  },
+  {
+    "question": "What is the difference between == and === operators in JavaScript?",
+    "answer":
+    "The == operator compares only the values of the operands, whereas the === operator (strict equality) compares both the values and the types of the operands."
+  }
+]
