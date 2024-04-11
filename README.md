@@ -33,6 +33,7 @@
 - [Weather Ticker with JavaScript](https://youtu.be/GdLRPmHLDFQ)
 - [Accordion with JavaScript](https://youtu.be/OGAQ2w3Ko34)
 - [Accordion with jQuery](https://youtu.be/dyBv4HDrMxI)
+- [Navigation bar with JavaScript](https://youtu.be/Iq77aQyx6cE)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>
