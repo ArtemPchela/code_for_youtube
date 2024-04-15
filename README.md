@@ -34,6 +34,7 @@
 - [Accordion with JavaScript](https://youtu.be/OGAQ2w3Ko34)
 - [Accordion with jQuery](https://youtu.be/dyBv4HDrMxI)
 - [Navigation bar with JavaScript](https://youtu.be/Iq77aQyx6cE)
+- [Circular progress bar](https://youtu.be/k6Pq1CChokU)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>
