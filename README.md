@@ -35,6 +35,7 @@
 - [Accordion with jQuery](https://youtu.be/dyBv4HDrMxI)
 - [Navigation bar with JavaScript](https://youtu.be/Iq77aQyx6cE)
 - [Circular progress bar](https://youtu.be/k6Pq1CChokU)
+- [Text analysis tool with React](https://youtu.be/oZTbl5b50H0)
 
 - <details>
   <summary>Burger Buttons Animation:</summary>
