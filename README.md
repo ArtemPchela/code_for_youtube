@@ -33,6 +33,7 @@
 * [Random Color Generator](https://youtu.be/XAznr5Zp8Ko)
 * [BMI Calculator with JavaScript](https://youtu.be/IFcI8PaWBH4)
 * [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
+* [Fixed Header on Scroll with Dynamic Background](https://youtu.be/OIyY1yHyyQ8)
 
 </details>
 
