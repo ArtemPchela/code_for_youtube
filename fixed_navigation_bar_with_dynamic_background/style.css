@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding: 1rem 0;
+	box-shadow: 0 2px rgba(0,0,0, 0.2);
+	z-index: 999;
+	transition: background-color 0.3s;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+nav a {
+	font-weight: 700;
+	color: #181d27;
+	display: inline-block;
+	background: linear-gradient(45deg, currentColor 0 0) bottom center / 0 2px no-repeat;
+	border-radius: 4px;
+	transition: background-size 0.4s ease-out;
+}
+
+nav a.active {
+	background-size: 100% 2px;
+}
+
+.section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+	transition: background-color 0.3s;
+}
+
