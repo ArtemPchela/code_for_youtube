@@ -34,6 +34,7 @@
 * [BMI Calculator with JavaScript](https://youtu.be/IFcI8PaWBH4)
 * [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
 * [Fixed Header on Scroll with Dynamic Background](https://youtu.be/OIyY1yHyyQ8)
+* [Sticky vs. Fixed Headers and Dynamic Visibility on Scroll, JavaScript](https://youtu.be/zvJ3A_dc2g4)
 
 </details>
 
