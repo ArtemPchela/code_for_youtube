@@ -68,6 +68,7 @@
 * [Hamburger button fall effect with CSS/JavaScript](https://youtu.be/yGDPMNmC-ec)
 * [Hamburger button go away to the left](https://youtu.be/DQGQr6FLx2w)
 * [Hamburger button two short lines](https://youtu.be/efcrATNhVpE)
-* [Hamburger Button, Arrow Left or Right](https://youtu.be/7GejjruFpck)
+* [Hamburger button, arrow left or right](https://youtu.be/7GejjruFpck)
+* [Hamburger button, hide middle line](https://youtu.be/vvIYloY_DB8)
 
 </details>
