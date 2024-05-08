@@ -16,6 +16,7 @@
   <summary>CSS/HTML:</summary>
 
 * [Flip card css](https://www.youtube.com/watch?v=81UNCWlS3pM)
+* [Hover effect before /after vs box-shadow hover effect](https://youtu.be/038-IdftkOc)
 
 </details>
 
@@ -51,6 +52,7 @@
 * [Section switcher with React](https://www.youtube.com/watch?v=fnVBakt8Myo)
 * [Multiple modals windows with React/TypeScript](https://youtu.be/_WEsT2rmZq4)
 * [Words per minute calculator with React/TypeScript](https://youtu.be/4deg5FEir8U)
+* [Copy to clipboard React TypeScript](https://youtu.be/LWz88eCLn1k)
 
 </details>
 

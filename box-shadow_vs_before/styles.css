@@ -1,0 +1,89 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 100vh;
+}
+
+.hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  span {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.shadow {
+  --shadow-color: #51bbfe;
+  background-color: var(--shadow-color);
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  box-shadow:
+    0 0 var(--shadow-color),
+    0 0 var(--shadow-color);
+  border: 1px solid black;
+  transition: box-shadow 0.6s ease;
+
+  &:hover {
+    border-radius: 7px;
+    box-shadow:
+      -20px -20px var(--shadow-color),
+      20px 20px var(--shadow-color);
+  }
+}
+
+/*.shadow:hover {*/
+/*  */
+/*}*/
+
+.before {
+  --before-color: #f4e76e;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: var(--before-color);
+  border-radius: 7px;
+  border: 1px solid black;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--before-color);
+    border-radius: inherit;
+    transition: 0.6s ease;
+  }
+
+  &:hover::before {
+    top: -20px;
+    left: -20px;
+  }
+
+  &:hover::after {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+/*.before::before,*/
+/*.before::after {*/
+/*}*/
