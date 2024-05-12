@@ -17,6 +17,7 @@
 
 * [Flip card css](https://www.youtube.com/watch?v=81UNCWlS3pM)
 * [Hover effect before /after vs box-shadow hover effect](https://youtu.be/038-IdftkOc)
+* [Interactive icons on hover](https://youtu.be/KKhMwa8IdkU)
 
 </details>
 
