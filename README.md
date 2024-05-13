@@ -77,21 +77,31 @@
 
 </details>
 
+[//]: # (STYLES)
 <style>
-details {
-    cursor: pointer;
-display: flex;
-justify-content: space-between;
-width: 100%
+summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #3B3B58;
+	cursor: pointer;
+    color: #16eefe;
+	border-bottom: 1px solid #A96DA3;
+}
+
+details[open] {
+	display: block;
 }
 
 summary::after {
 	display: inline-block;
-	content: '▶️';
+	content: '\21E9';
+    color: #16eefe;
 	transition: transform 0.3s;
 }
 
 details[open] > summary::after {
-	transform: rotate(90deg);
+	transform: rotate(180deg);
 }
 </style>
