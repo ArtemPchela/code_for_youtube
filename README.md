@@ -2,9 +2,9 @@
 
 ## In this repo we will keep all code from [@catwebdev](https://www.youtube.com/channel/UC2pGphugSZ0Qp2zuXSOPx0g) YouTube channel.
 
-### share / like /subscribe
+### share / like / subscribe
 
-## Support our work you can by:
+#### I put a lot of love and effort into everything I create. If you find value in my work and would like to give something back, consider supporting me. It’s simple, just click the link below to buy me a coffee! Every cup helps me keep creating and sharing more with you.
 
 <a href="https://www.buymeacoffee.com/catwebdev">
 <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=catwebdev&button_colour=16eefe&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" alt="buy me a coffee"/>
@@ -37,6 +37,7 @@
 * [Hamburger Menu Smooth Transition with JavaScript](https://youtu.be/iIadUGpuLDA)
 * [Fixed Header on Scroll with Dynamic Background](https://youtu.be/OIyY1yHyyQ8)
 * [CSS scroll animation vs scroll animation JavaScript](https://youtu.be/Fea300SL3zI)
+* [Text Shadow on Mouse Event JavaScript/HTML/CSS](https://youtu.be/5dvLoLDBkVw)
 
 </details>
 
@@ -75,3 +76,22 @@
 * [Hamburger button, hide middle line](https://youtu.be/vvIYloY_DB8)
 
 </details>
+
+<style>
+details {
+    cursor: pointer;
+display: flex;
+justify-content: space-between;
+width: 100%
+}
+
+summary::after {
+	display: inline-block;
+	content: '▶️';
+	transition: transform 0.3s;
+}
+
+details[open] > summary::after {
+	transform: rotate(90deg);
+}
+</style>
