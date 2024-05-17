@@ -1,0 +1,79 @@
+:root {
+  --bg-color: #413f3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hamburger {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  position: absolute;
+  width: 100%;
+  background-color: var(--bg-color);
+  height: 6px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hamburger span:nth-child(2) {
+  top: 17px;
+}
+
+.hamburger span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: translate(-50%) rotate(-90deg);
+  transition-delay: 0.4s;
+  left: 50%;
+  width: 60%;
+  top: 12px;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+  transition: opacity 0.5s ease 0s;
+}
+
+.hamburger.active span:nth-child(3) {
+  transition-delay: 0.4s;
+  width: 13%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hamburger:not(.active) span:nth-child(1),
+.hamburger:not(.active) span:nth-child(3) {
+  transition-delay: 0s;
+}
+
+.hamburger:not(.active) span:nth-child(2) {
+  opacity: 1;
+  transition: opacity 0.5s ease 0.5s;
+}

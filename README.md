@@ -74,6 +74,7 @@
 * [Hamburger button two short lines](https://youtu.be/efcrATNhVpE)
 * [Hamburger button, arrow left or right](https://youtu.be/7GejjruFpck)
 * [Hamburger button, hide middle line](https://youtu.be/vvIYloY_DB8)
+* [Hamburger button transforms into an exclamation mark](https://youtu.be/dSm-hSJbFGg)
 
 </details>
 
