@@ -38,6 +38,7 @@
 * [Fixed Header on Scroll with Dynamic Background](https://youtu.be/OIyY1yHyyQ8)
 * [CSS scroll animation vs scroll animation JavaScript](https://youtu.be/Fea300SL3zI)
 * [Text Shadow on Mouse Event JavaScript/HTML/CSS](https://youtu.be/5dvLoLDBkVw)
+* [Neumorphism Hover Effects | HTML, CSS, JavaScript](https://youtu.be/TiSlP6yeYQI)
 
 </details>
 

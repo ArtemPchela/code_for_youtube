@@ -19,3 +19,31 @@ body {
 	font-family: "Arial", sans-serif;
 }
 
+.btn_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.btn {
+	height: 160px;
+	width: 160px;
+	border: none;
+	background-color: rgba(94,94,98,0.45);
+	padding: 20px;
+	border-radius: 50%;
+	box-shadow: var(--box-shadow);
+	transition: box-shadow 0.3s ease-in-out;
+	cursor: pointer;
+	outline: none;
+
+	i {
+		font-size: 4rem;
+		color: rgba(94,94,98,1);
+		text-shadow: var(--icon-shadow);
+		transition: text-shadow 0.3s ease-in-out;
+	}
+}
+
