@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #fffefe;
+}
+
+h1 {
+	font-size: 5rem;
+	margin-bottom: 4rem;
+	font-family: Harrington, sans-serif;
+	background: linear-gradient(to right, red, blue, green, orange);
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0 auto;
+	gap: 2rem;
+
+	.circle-container {
+		position: relative;
+		width: 150px;
+		height: 150px;
+		border: 2px solid rgba(255, 255, 255, 0.5);
+		border-radius: 50%;
+		background-color: rgba(255, 255, 255, 0.5);
+		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5),
+		0 -5px 8px rgba(0, 0, 0, 0.5),
+		inset 0 5px 8px rgba(0, 0, 0, 0.5),
+		inset 0 -5px 8px rgba(0, 0, 0, 0.5);
+		backdrop-filter: blur(10px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: box-shadow 0.3s ease-in-out, transform 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5),
+			0 -5px 8px rgba(0, 0, 0, 0.5),
+			inset 0 0 1px rgba(0, 0, 0, 0.5),
+			inset 0 0 1px rgba(0, 0, 0, 0.5);
+		}
+
+		.fa {
+			font-size: 4rem;
+			transition: transform 0.3s, opacity 0.2s;
+			transition-delay: 0s;
+		}
+
+		.text {
+			position: absolute;
+			font-size: 2rem;
+			font-weight: bold;
+
+			opacity: 0;
+			transition: opacity 0.2s;
+		}
+	}
+}
+
+.circle-container:hover .fa {
+	transform: scale(2);
+	opacity: 0;
+	transition-delay: 0.2s;
+}
+
+.circle-container:hover .text {
+	opacity: 1;
+	transition-delay: 0.5s;
+}
+
+.circle-container:not(:hover) .fa {
+	transition-delay: 0.3s;
+}
+
+.circle-container:not(:hover) .text {
+	opacity: 0;
+	transition-delay: 0s;
+}

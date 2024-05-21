@@ -18,6 +18,7 @@
 * [Flip card css](https://www.youtube.com/watch?v=81UNCWlS3pM)
 * [Hover effect before /after vs box-shadow hover effect](https://youtu.be/038-IdftkOc)
 * [Interactive icons on hover](https://youtu.be/KKhMwa8IdkU)
+* [Interactive icons on hover](https://youtu.be/xgJSBSg-L9M)
 
 </details>
 
@@ -71,7 +72,7 @@
   <summary>Burger Buttons Animation:</summary>
 
 * [Hamburger button fall effect with CSS/JavaScript](https://youtu.be/yGDPMNmC-ec)
-* [Hamburger button go away to the left](https://youtu.be/DQGQr6FLx2w)
+* [Hamburger button goes away to the left](https://youtu.be/DQGQr6FLx2w)
 * [Hamburger button two short lines](https://youtu.be/efcrATNhVpE)
 * [Hamburger button, arrow left or right](https://youtu.be/7GejjruFpck)
 * [Hamburger button, hide middle line](https://youtu.be/vvIYloY_DB8)
@@ -79,7 +80,6 @@
 
 </details>
 
-[//]: # (STYLES)
 <style>
 summary {
 	display: flex;
