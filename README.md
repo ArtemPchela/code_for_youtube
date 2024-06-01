@@ -19,6 +19,7 @@
 * [Hover effect before /after vs box-shadow hover effect](https://youtu.be/038-IdftkOc)
 * [Interactive icons on hover](https://youtu.be/KKhMwa8IdkU)
 * [Interactive icons on hover](https://youtu.be/xgJSBSg-L9M)
+* [Distortion Text Effect](https://youtu.be/EWyXai_AhN8)
 
 </details>
 
@@ -40,6 +41,7 @@
 * [CSS scroll animation vs scroll animation JavaScript](https://youtu.be/Fea300SL3zI)
 * [Text Shadow on Mouse Event JavaScript/HTML/CSS](https://youtu.be/5dvLoLDBkVw)
 * [Neumorphism Hover Effects | HTML, CSS, JavaScript](https://youtu.be/TiSlP6yeYQI)
+* [Cursor with bubble effect JavaScript/CSS](https://youtu.be/qy6GNZfmrYo)
 
 </details>
 
