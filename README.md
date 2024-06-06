@@ -43,6 +43,7 @@
 * [Text Shadow on Mouse Event JavaScript/HTML/CSS](https://youtu.be/5dvLoLDBkVw)
 * [Neumorphism Hover Effects | HTML, CSS, JavaScript](https://youtu.be/TiSlP6yeYQI)
 * [Cursor with bubble effect JavaScript/CSS](https://youtu.be/qy6GNZfmrYo)
+* [3D Parallax Hover Effect HTML/CSS/JavaScript](https://youtu.be/Pc5CKB5kJMw)
 
 </details>
 
@@ -57,8 +58,8 @@
 * [Image slider with React/TypeScript](https://youtu.be/gZ-NPMupR0U)
 * [Circular progress bar](https://youtu.be/k6Pq1CChokU)
 * [Section switcher with React](https://www.youtube.com/watch?v=fnVBakt8Myo)
-* [Multiple modals windows with React/TypeScript](https://youtu.be/_WEsT2rmZq4)
-* [Words per minute calculator with React/TypeScript](https://youtu.be/4deg5FEir8U)
+* [Multiple modal windows with React/TypeScript](https://youtu.be/_WEsT2rmZq4)
+* [Words per-minute calculator with React/TypeScript](https://youtu.be/4deg5FEir8U)
 * [Copy to clipboard React TypeScript](https://youtu.be/LWz88eCLn1k)
 
 </details>
