@@ -44,6 +44,7 @@
 * [Neumorphism Hover Effects | HTML, CSS, JavaScript](https://youtu.be/TiSlP6yeYQI)
 * [Cursor with bubble effect JavaScript/CSS](https://youtu.be/qy6GNZfmrYo)
 * [3D Parallax Hover Effect HTML/CSS/JavaScript](https://youtu.be/Pc5CKB5kJMw)
+* [Neumorphism Hover Effect](https://youtu.be/WkdyvaH-dfs)
 
 </details>
 
