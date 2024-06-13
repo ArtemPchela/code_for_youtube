@@ -21,6 +21,7 @@
 * [Interactive icons on hover](https://youtu.be/xgJSBSg-L9M)
 * [Distortion Text Effect](https://youtu.be/EWyXai_AhN8)
 * [Underline Text with 6 Techniques CSS/HTML](https://youtu.be/Gk6_vqUcvwg)
+* [3D Cube Animation with HTML & CSS](https://youtu.be/IK2Qghy-ZZo)
 
 </details>
 
