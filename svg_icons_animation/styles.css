@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+svg {
+  width: 150px;
+  height: 150px;
+}
+
+.path_line {
+  overflow: auto;
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  stroke-linejoin: round;
+  animation:
+    strokeAnimation 5s linear forwards,
+    fillAnimation 3s ease-in-out 5s forwards;
+}
+
+.path_color1 {
+  color: #bfd1fa;
+}
+
+.path_color2 {
+  color: #ff2458;
+}
+
+.path_color3 {
+  color: #4ef63a;
+}
+
+.path_color4 {
+  color: #f5d03e;
+}
+
+@keyframes strokeAnimation {
+  0% {
+    stroke-dashoffset: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillAnimation {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: currentColor;
+  }
+}
