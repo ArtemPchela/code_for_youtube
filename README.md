@@ -22,6 +22,7 @@
 * [Distortion Text Effect](https://youtu.be/EWyXai_AhN8)
 * [Underline Text with 6 Techniques CSS/HTML](https://youtu.be/Gk6_vqUcvwg)
 * [3D Cube Animation with HTML & CSS](https://youtu.be/IK2Qghy-ZZo)
+* [SVG Animation Icons with CSS](https://youtu.be/5PShlCTE9j8)
 
 </details>
 
@@ -46,6 +47,7 @@
 * [Cursor with bubble effect JavaScript/CSS](https://youtu.be/qy6GNZfmrYo)
 * [3D Parallax Hover Effect HTML/CSS/JavaScript](https://youtu.be/Pc5CKB5kJMw)
 * [Neumorphism Hover Effect](https://youtu.be/WkdyvaH-dfs)
+* [Emoji Cursor Effect with JavaScript/CSS 🌟](https://youtu.be/t8NGEvEaRjg)
 
 </details>
 

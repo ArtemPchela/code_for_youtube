@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     particle.style.left = `${x - size / 2}px`;
     particle.style.top = `${y - size / 2}px`;
-    particle.style.fontSize = "0.45rem";
+    particle.style.fontSize = "1rem";
     particle.style.color = "white";
     particle.style.width = `${size}px`;
     particle.style.height = `${size}px`;
@@ -63,6 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
       particle.remove();
-    }, 2500);
+    }, 1500);
   });
 });
