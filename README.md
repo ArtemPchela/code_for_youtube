@@ -48,7 +48,8 @@
 * [3D Parallax Hover Effect HTML/CSS/JavaScript](https://youtu.be/Pc5CKB5kJMw)
 * [Neumorphism Hover Effect](https://youtu.be/WkdyvaH-dfs)
 * [Emoji Cursor Effect with JavaScript/CSS 🌟](https://youtu.be/t8NGEvEaRjg)
-* [Cursor with emoji/icons effect JavaScript/CSS](https://youtu.be/t8NGEvEaRjg)
+* [Cursor with emoji/icons affects JavaScript/CSS](https://youtu.be/t8NGEvEaRjg)
+* [How to Make Responsive Cards with Cool Hover Animations!](https://youtu.be/uiMAXmgXVZI)
 
 </details>
 
