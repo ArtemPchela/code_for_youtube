@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 2rem 0;
+  color: #12130f;
+}
+
+.dropdown_container {
+  max-width: 800px;
+  width: 90%;
+  margin: 1.25rem auto 0;
+  display: grid;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-family: "Courier New", sans-serif;
+}
+
+details {
+  background-color: #ffffff;
+  border: 1px solid #8fcb9b;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #8fcb9b;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+summary:after {
+  content: "\f063";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.answer {
+  padding: 10px;
+}
+
+details[open] > summary:after {
+  transform: rotate(180deg);
+}
