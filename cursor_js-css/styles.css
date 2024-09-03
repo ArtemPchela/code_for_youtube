@@ -1,0 +1,72 @@
+:root {
+  --cursor-size: 2.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Courier New", sans-serif;
+  background: #faf8f8;
+  cursor: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 640px;
+  margin: 1.25rem auto;
+  background: white;
+  padding: 1.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #5c67b6;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5c67b6;
+  padding-bottom: 0.35rem;
+  display: inline-block;
+}
+
+p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.quote {
+  font-style: italic;
+  background-color: #eef2ff;
+  padding: 0.625rem;
+  border-left: 4px solid #5c67b6;
+  margin: 1.25rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 0.625rem 0;
+  background-color: #5c67b6;
+  color: white;
+}
+
+.cursor {
+  position: fixed;
+  background-image: url("icon.svg");
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 99;
+}
