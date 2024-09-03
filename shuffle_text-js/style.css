@@ -1,0 +1,64 @@
+:root {
+  --color-animation-start: #ba37ff;
+  --text-shadow-start: 0 0 10px var(--color-animation-start),
+    0 0 20px var(--color-animation-start), 0 0 30px var(--color-animation-start),
+    0 0 400px var(--color-animation-start);
+  --text-shadow-mid: 0 0 10px var(--color-animation-start),
+    0 0 20px var(--color-animation-start), 0 0 30px var(--color-animation-start);
+  --text-shadow-end: 0 0 2px var(--color-animation-start),
+    0 0 7px var(--color-animation-start);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 620px;
+  height: 100vh;
+}
+
+.text {
+  font-family: "Maiandra GD", sans-serif;
+  color: #f8f8f8;
+  font-size: 2.5rem;
+
+  span {
+    visibility: hidden;
+    opacity: 0;
+
+    &.text-effect {
+      animation: text-animation 0.7s forwards;
+      visibility: visible;
+    }
+  }
+}
+
+@keyframes text-animation {
+  0% {
+    opacity: 0;
+    background-color: var(--color-animation-start);
+    text-shadow: var(--text-shadow-start);
+  }
+
+  50% {
+    opacity: 1;
+    background-color: transparent;
+    text-shadow: var(--text-shadow-mid);
+  }
+
+  100% {
+    opacity: 1;
+    background-color: transparent;
+    color: var(--color-animation-start);
+    text-shadow: var(--text-shadow-end);
+  }
+}
