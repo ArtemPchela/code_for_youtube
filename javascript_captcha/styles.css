@@ -1,0 +1,111 @@
+:root {
+  --dark-bg: #121212;
+  --container-bg: #1e1e1e;
+  --text-color: #fff;
+  --captcha-bg: #333;
+  --input-bg: #222;
+  --border-color: #444;
+  --button-bg: #08535b;
+  --button-hover-bg: #127696;
+  --button-active-bg: #23ffdc;
+  --success-color: #25ff1e;
+  --error-color: #ff3333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--dark-bg);
+  color: var(--text-color);
+}
+
+.captcha-container {
+  background: var(--container-bg);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.captcha-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.captcha-text {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: var(--captcha-bg);
+  border-radius: 8px;
+  color: var(--text-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.captcha-input {
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 16px;
+  background: var(--input-bg);
+  color: var(--text-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.captcha-input:focus {
+  background: var(--captcha-bg);
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.captcha-submit {
+  width: 100%;
+  padding: 14px;
+  background: var(--button-bg);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.captcha-submit:hover {
+  background: var(--button-hover-bg);
+  transform: translateY(-2px);
+}
+
+.captcha-submit:active {
+  background: var(--button-active-bg);
+  transform: translateY(0);
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s;
+}
