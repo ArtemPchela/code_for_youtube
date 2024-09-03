@@ -1,0 +1,113 @@
+/*.hover {*/
+/*  cursor: pointer;*/
+/*  color: white;*/
+/*  background: linear-gradient(45deg, white, white) bottom 0 right 50% /*/
+/*    var(--value, 0) 2px no-repeat;*/
+/*  transition: background 0.5s ease-in-out;*/
+/*}*/
+
+/*.hover:hover {*/
+/*  --value: 100%;*/
+/*}*/
+
+:root {
+  --cursor-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Courier New", sans-serif;
+  background: #faf8f8;
+  /*cursor: url("/icon.svg"), auto;*/
+  cursor: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 640px;
+  margin: 0 auto;
+  background: white;
+  padding: 1.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #5c67b6;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5c67b6;
+  padding-bottom: 0.35rem;
+  display: inline-block;
+}
+
+p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.quote {
+  font-style: italic;
+  background-color: #eef2ff;
+  padding: 0.625rem;
+  border-left: 4px solid #5c67b6;
+  margin: 1.25rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 0.625rem 0;
+  background-color: #5c67b6;
+  color: white;
+}
+
+.cursor {
+  position: fixed;
+  background-image: url("icon.svg");
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  background-size: cover;
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  z-index: 99;
+}
+
+/*.cursor {*/
+/*  position: fixed;*/
+/*  width: var(--cursor-size);*/
+/*  height: var(--cursor-size);*/
+/*  font-family: "Font Awesome 6 Free"; !* Font Awesome font-family *!*/
+/*  font-weight: 900; !* Font Awesome font-weight for solid icons *!*/
+/*  font-size: var(--cursor-size);*/
+/*  color: #000; !* Change icon color as needed *!*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  pointer-events: none;*/
+/*  z-index: 99;*/
+/*  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.7));*/
+/*  transition:*/
+/*    opacity 0.3s ease-in-out,*/
+/*    transform 0.3s ease-in-out;*/
+/*}*/
+
+/*.cursor::before {*/
+/*  content: "\f6e2";*/
+/*  !*content: "\f57e";*!*/
+/*  !*content: "\f124";*!*/
+/*  !*content: "\f1bb";*!*/
+/*}*/
