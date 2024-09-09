@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2a2a2a;
+  font-family: Arial, sans-serif;
+}
+
+.tab-container {
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+  padding: 5px;
+}
+
+.tab {
+  font-size: 3vw;
+  padding: 15px 20px;
+  color: aliceblue;
+  z-index: 2;
+  transition: color 0.6s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+.tab.active {
+  color: #1a1a1a;
+}
+
+.slider {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: var(--grid-color);
+  height: calc(100% - 10px);
+  z-index: 1;
+  border-radius: 1.25rem;
+  transition: all 0.6s ease-in-out;
+}
