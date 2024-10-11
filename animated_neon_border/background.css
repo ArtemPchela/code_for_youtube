@@ -1,0 +1,40 @@
+:root {
+  --grid-size: 51px;
+  --grid-color: hsla(52, 100%, 58%, 0.62);
+  --mask-angle: 17deg;
+  --mask-gradient: linear-gradient(var(--mask-angle), transparent 19%, white);
+}
+
+/*:root {*/
+/*  --grid-size: 45px;*/
+/*  --grid-color: rgba(255, 255, 255, 0.5);*/
+/*  --particle-size: 5px;*/
+/*  --mask-gradient: radial-gradient(*/
+/*    circle,*/
+/*    rgba(0, 0, 0, 0) 30%,*/
+/*    rgba(0, 0, 0, 1) 100%*/
+/*  );*/
+/*}*/
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background:
+    linear-gradient(
+        90deg,
+        var(--grid-color) 1px,
+        transparent 1px var(--grid-size)
+      )
+      50% 50% / var(--grid-size) var(--grid-size),
+    linear-gradient(var(--grid-color) 1px, transparent 1px var(--grid-size)) 50%
+      50% / var(--grid-size) var(--grid-size);
+  mask: var(--mask-gradient);
+  -webkit-mask: var(--mask-gradient);
+  transform-style: flat;
+  pointer-events: none;
+  z-index: -1;
+}

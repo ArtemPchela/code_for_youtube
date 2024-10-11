@@ -1,0 +1,58 @@
+:root {
+  --_border-radius: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Courier New", serif;
+  background: #000;
+  color: white;
+}
+
+.neon-border {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  padding: 1rem;
+  line-height: 55px;
+  background: #000;
+  border-radius: var(--_border-radius);
+}
+
+.neon-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  border-radius: var(--_border-radius);
+  background: linear-gradient(135deg, #ff00ee, #00ffff, #ff00ee, #00ffff);
+  background-size: 300% 300%;
+  animation: gradientMove 5s linear infinite;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
